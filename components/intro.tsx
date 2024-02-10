@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://imgur.com/NZvgVKI"
+              src="/avatar.jpeg"
               alt="Shane Portrait"
               width="250"
               height="250"
