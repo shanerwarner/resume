@@ -3,7 +3,7 @@
 
 const nextConfig = {}
 
-module.exports = nextConfig;
+
 
 const config = {
   experimental: {
@@ -12,3 +12,4 @@ const config = {
 };
 
 module.exports = config;
+module.exports = nextConfig;
