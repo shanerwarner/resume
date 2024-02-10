@@ -1,8 +1,12 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-
-    serverActions: true,
+ 
+module.exports = {
+  experimental: {
+    serverActions: {
+      allowedOrigins: ['resend.dev', '*.resend.dev'],
+    },
   },
-};
+}
+;
 
 module.exports = nextConfig;
