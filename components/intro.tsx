@@ -1,6 +1,6 @@
 "use client";
 
-
+import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/avatar.jpeg"
+              src="/face.png"
               alt="Shane Portrait"
               width="250"
               height="250"
